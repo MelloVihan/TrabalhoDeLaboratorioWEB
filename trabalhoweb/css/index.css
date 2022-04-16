@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+/* https://fonts.google.com/specimen/Oswald?query=Oswald */
+
+
+
+/* ANIMATIONS */
+@keyframes BtnHover {
+	50%{filter: brightness(2)}
+}
+
+
+
+
+
+*{
+	margin: 0;
+}
+
+body{
+	background-color: #011627;
+}
+header{
+	color: #F8F4FF;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	font-size: 350%;
+	margin-left: 31vw;
+	margin-top: 5px;
+	font-weight: bolder;
+
+}
+a{
+	text-decoration: none;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+}
+.BtnBox{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 220px; 
+	height: 70px;
+	font-size: 195%;
+	background: transparent;
+	border-style: outset;
+	border-width: 8px;
+	border-radius: 5%;
+	margin-left: 79vh;
+	margin-top: 40px;
+	text-align: center;
+}
+.ByMeBox{
+	position: fixed;
+	margin-left: 38.6vw;
+	margin-top: 20.5vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 25%;
+	height: 35px;
+	background-color: #F8F4FF;
+	color: #011627;
+	border-top-right-radius: 15%;
+	border-top-left-radius: 15%;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 600;
+	font-size: 3.4ch;
+	text-decoration: underline 0.5px;
+	text-decoration-color: #011627;
+}
+
+
+.BtnBox:hover{
+	animation: BtnHover infinite 1s;
+}
